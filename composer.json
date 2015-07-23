@@ -1,0 +1,27 @@
+{
+    "name": "renuka094/recurring-paypal",
+    "description": "",
+	
+	"homepage": "https://github.com/renuka094/recurring-paypal",
+    "license": "MIT",
+	"type": "library",
+    "authors": [
+        {
+            "name": "Renuka Agrawal",
+            "email": "er.renuka094@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+		"omnipay/common": "~2.0"
+		
+    },
+    "autoload": {
+        "psr-0": {
+           "Renuka094\\RecurringPaypal\\": "src/"
+        }
+    },
+	"minimum-stability": "stable"
+    
+}
